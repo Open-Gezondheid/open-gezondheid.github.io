@@ -1,0 +1,117 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 'Open Sans', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h4
+{
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 22px;
+}
+@media only screen and (max-width: 960px) { p { font-size: 16px; } }
+@media only screen and (max-width: 564.70588235px) { h1 { font-size: 12px; } }
+
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.particles {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 90;
+  width: 80vw;
+  padding-top: 10vw;
+  padding-left: 10vw;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+.section-8.center {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 0vh;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #8dc5f7, #9d8dcf);
+  -webkit-perspective: 1001px;
+  perspective: 1001px;
+}
